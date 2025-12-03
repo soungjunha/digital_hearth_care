@@ -1,0 +1,850 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B5C0DC02EDAE67300524161 /* HeartBridge Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 4B5C0DBF2EDAE67300524161 /* HeartBridge Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4BE50B362EDFC148006ABCB3 /* HeartBridge Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 4B5C0DBF2EDAE67300524161 /* HeartBridge Watch App.app */; };
+		4BE50B492EDFCDC5006ABCB3 /* HeartBridge Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 4B5C0DBF2EDAE67300524161 /* HeartBridge Watch App.app */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B5C0DC12EDAE67300524161 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B5C0DB32EDAE67300524161 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B5C0DBE2EDAE67300524161;
+			remoteInfo = "HeartBridge Watch App";
+		};
+		4BE50B332EDFC046006ABCB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B5C0DB32EDAE67300524161 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B5C0DBE2EDAE67300524161;
+			remoteInfo = "HeartBridge Watch App";
+		};
+		4BE50B462EDFCD87006ABCB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B5C0DB32EDAE67300524161 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B5C0DBE2EDAE67300524161;
+			remoteInfo = "HeartBridge Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4B5C0DCF2EDAE67500524161 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				4B5C0DC02EDAE67300524161 /* HeartBridge Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BE50B352EDFC067006ABCB3 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Watch;
+			dstSubfolderSpec = 16;
+			files = (
+				4BE50B362EDFC148006ABCB3 /* HeartBridge Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BE50B482EDFCD98006ABCB3 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Watch;
+			dstSubfolderSpec = 16;
+			files = (
+				4BE50B492EDFCDC5006ABCB3 /* HeartBridge Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4B5C0DB92EDAE67300524161 /* HeartBridge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeartBridge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B5C0DBF2EDAE67300524161 /* HeartBridge Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HeartBridge Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BE50B032EDFB026006ABCB3 /* HeartBridgePad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeartBridgePad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BE50B3B2EDFCD69006ABCB3 /* HeartBridgePhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeartBridgePhone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		4B76A1152EE053E50028A8E8 /* Exceptions for "HeartBridge Watch App" folder in "HeartBridge Watch App" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"HeartBridge-Watch-App-Info.plist",
+			);
+			target = 4B5C0DBE2EDAE67300524161 /* HeartBridge Watch App */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		4B5C0DC32EDAE67300524161 /* HeartBridge Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				4B76A1152EE053E50028A8E8 /* Exceptions for "HeartBridge Watch App" folder in "HeartBridge Watch App" target */,
+			);
+			path = "HeartBridge Watch App";
+			sourceTree = "<group>";
+		};
+		4BE50B042EDFB026006ABCB3 /* HeartBridgePad */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HeartBridgePad;
+			sourceTree = "<group>";
+		};
+		4BE50B3C2EDFCD69006ABCB3 /* HeartBridgePhone */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = HeartBridgePhone;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B5C0DBC2EDAE67300524161 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BE50B002EDFB026006ABCB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BE50B382EDFCD69006ABCB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B5C0DB22EDAE67300524161 = {
+			isa = PBXGroup;
+			children = (
+				4B5C0DC32EDAE67300524161 /* HeartBridge Watch App */,
+				4BE50B042EDFB026006ABCB3 /* HeartBridgePad */,
+				4BE50B3C2EDFCD69006ABCB3 /* HeartBridgePhone */,
+				4B5C0DBA2EDAE67300524161 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B5C0DBA2EDAE67300524161 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B5C0DB92EDAE67300524161 /* HeartBridge.app */,
+				4B5C0DBF2EDAE67300524161 /* HeartBridge Watch App.app */,
+				4BE50B032EDFB026006ABCB3 /* HeartBridgePad.app */,
+				4BE50B3B2EDFCD69006ABCB3 /* HeartBridgePhone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B5C0DB82EDAE67300524161 /* HeartBridge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B5C0DD02EDAE67500524161 /* Build configuration list for PBXNativeTarget "HeartBridge" */;
+			buildPhases = (
+				4B5C0DB72EDAE67300524161 /* Resources */,
+				4B5C0DCF2EDAE67500524161 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B5C0DC22EDAE67300524161 /* PBXTargetDependency */,
+			);
+			name = HeartBridge;
+			packageProductDependencies = (
+			);
+			productName = HeartBridge;
+			productReference = 4B5C0DB92EDAE67300524161 /* HeartBridge.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		4B5C0DBE2EDAE67300524161 /* HeartBridge Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B5C0DCC2EDAE67500524161 /* Build configuration list for PBXNativeTarget "HeartBridge Watch App" */;
+			buildPhases = (
+				4B5C0DBB2EDAE67300524161 /* Sources */,
+				4B5C0DBC2EDAE67300524161 /* Frameworks */,
+				4B5C0DBD2EDAE67300524161 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				4B5C0DC32EDAE67300524161 /* HeartBridge Watch App */,
+			);
+			name = "HeartBridge Watch App";
+			packageProductDependencies = (
+			);
+			productName = "HeartBridge Watch App";
+			productReference = 4B5C0DBF2EDAE67300524161 /* HeartBridge Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4BE50B022EDFB026006ABCB3 /* HeartBridgePad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BE50B0B2EDFB028006ABCB3 /* Build configuration list for PBXNativeTarget "HeartBridgePad" */;
+			buildPhases = (
+				4BE50AFF2EDFB026006ABCB3 /* Sources */,
+				4BE50B002EDFB026006ABCB3 /* Frameworks */,
+				4BE50B012EDFB026006ABCB3 /* Resources */,
+				4BE50B352EDFC067006ABCB3 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BE50B342EDFC046006ABCB3 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				4BE50B042EDFB026006ABCB3 /* HeartBridgePad */,
+			);
+			name = HeartBridgePad;
+			packageProductDependencies = (
+			);
+			productName = HeartBridgePad;
+			productReference = 4BE50B032EDFB026006ABCB3 /* HeartBridgePad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4BE50B3A2EDFCD69006ABCB3 /* HeartBridgePhone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BE50B432EDFCD6B006ABCB3 /* Build configuration list for PBXNativeTarget "HeartBridgePhone" */;
+			buildPhases = (
+				4BE50B372EDFCD69006ABCB3 /* Sources */,
+				4BE50B382EDFCD69006ABCB3 /* Frameworks */,
+				4BE50B392EDFCD69006ABCB3 /* Resources */,
+				4BE50B482EDFCD98006ABCB3 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BE50B472EDFCD87006ABCB3 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				4BE50B3C2EDFCD69006ABCB3 /* HeartBridgePhone */,
+			);
+			name = HeartBridgePhone;
+			packageProductDependencies = (
+			);
+			productName = HeartBridgePhone;
+			productReference = 4BE50B3B2EDFCD69006ABCB3 /* HeartBridgePhone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B5C0DB32EDAE67300524161 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2610;
+				LastUpgradeCheck = 2610;
+				TargetAttributes = {
+					4B5C0DB82EDAE67300524161 = {
+						CreatedOnToolsVersion = 26.1;
+					};
+					4B5C0DBE2EDAE67300524161 = {
+						CreatedOnToolsVersion = 26.1;
+					};
+					4BE50B022EDFB026006ABCB3 = {
+						CreatedOnToolsVersion = 26.1.1;
+					};
+					4BE50B3A2EDFCD69006ABCB3 = {
+						CreatedOnToolsVersion = 26.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 4B5C0DB62EDAE67300524161 /* Build configuration list for PBXProject "HeartBridge" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B5C0DB22EDAE67300524161;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 4B5C0DBA2EDAE67300524161 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B5C0DB82EDAE67300524161 /* HeartBridge */,
+				4B5C0DBE2EDAE67300524161 /* HeartBridge Watch App */,
+				4BE50B022EDFB026006ABCB3 /* HeartBridgePad */,
+				4BE50B3A2EDFCD69006ABCB3 /* HeartBridgePhone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B5C0DB72EDAE67300524161 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B5C0DBD2EDAE67300524161 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BE50B012EDFB026006ABCB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BE50B392EDFCD69006ABCB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B5C0DBB2EDAE67300524161 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BE50AFF2EDFB026006ABCB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BE50B372EDFCD69006ABCB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B5C0DC22EDAE67300524161 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B5C0DBE2EDAE67300524161 /* HeartBridge Watch App */;
+			targetProxy = 4B5C0DC12EDAE67300524161 /* PBXContainerItemProxy */;
+		};
+		4BE50B342EDFC046006ABCB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B5C0DBE2EDAE67300524161 /* HeartBridge Watch App */;
+			targetProxy = 4BE50B332EDFC046006ABCB3 /* PBXContainerItemProxy */;
+		};
+		4BE50B472EDFCD87006ABCB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B5C0DBE2EDAE67300524161 /* HeartBridge Watch App */;
+			targetProxy = 4BE50B462EDFCD87006ABCB3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4B5C0DCA2EDAE67500524161 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4B5C0DCB2EDAE67500524161 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		4B5C0DCD2EDAE67500524161 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "Don't Code Sign";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_CODE_SIGNING = NO;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "HeartBridge-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = HeartBridge;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "심장 이상 징후 분석을 위해 심전도 및 심박수 데이터를 조회합니다.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "분석 결과를 건강 데이터에 저장합니다.";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				NEW_SETTING = "";
+				NEW_SETTING1 = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bu.HeartBridge.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 26.1;
+			};
+			name = Debug;
+		};
+		4B5C0DCE2EDAE67500524161 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "Don't Code Sign";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_CODE_SIGNING = NO;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "HeartBridge-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = HeartBridge;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "심장 이상 징후 분석을 위해 심전도 및 심박수 데이터를 조회합니다.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "분석 결과를 건강 데이터에 저장합니다.";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				NEW_SETTING = "";
+				NEW_SETTING1 = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bu.HeartBridge.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 26.1;
+			};
+			name = Release;
+		};
+		4B5C0DD12EDAE67500524161 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "Don't Code Sign";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_CODE_SIGNING = NO;
+				INFOPLIST_KEY_CFBundleDisplayName = HeartBridge;
+				MARKETING_VERSION = 1.0;
+				NEW_SETTING = "";
+				NEW_SETTING1 = "";
+				NEW_SETTING2 = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bu.HeartBridge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4B5C0DD22EDAE67500524161 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "Don't Code Sign";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_CODE_SIGNING = NO;
+				INFOPLIST_KEY_CFBundleDisplayName = HeartBridge;
+				MARKETING_VERSION = 1.0;
+				NEW_SETTING = "";
+				NEW_SETTING1 = "";
+				NEW_SETTING2 = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bu.HeartBridge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4BE50B0C2EDFB028006ABCB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_ENTITLEMENTS = HeartBridgePad/HeartBridgePad.entitlements;
+				CODE_SIGN_IDENTITY = "Sign to Run Locally";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_CODE_SIGNING = NO;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "측정용";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "분석용";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "저장용";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				NEW_SETTING = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bu.HeartBridgePad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4BE50B0D2EDFB028006ABCB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_ENTITLEMENTS = HeartBridgePad/HeartBridgePad.entitlements;
+				CODE_SIGN_IDENTITY = "Sign to Run Locally";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_CODE_SIGNING = NO;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "측정용";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "분석용";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "저장용";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				NEW_SETTING = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bu.HeartBridgePad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4BE50B442EDFCD6B006ABCB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "Don't Code Sign";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_CODE_SIGNING = NO;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bu.HeartBridgePhone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4BE50B452EDFCD6B006ABCB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "Don't Code Sign";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = NO;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_CODE_SIGNING = NO;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bu.HeartBridgePhone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B5C0DB62EDAE67300524161 /* Build configuration list for PBXProject "HeartBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B5C0DCA2EDAE67500524161 /* Debug */,
+				4B5C0DCB2EDAE67500524161 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B5C0DCC2EDAE67500524161 /* Build configuration list for PBXNativeTarget "HeartBridge Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B5C0DCD2EDAE67500524161 /* Debug */,
+				4B5C0DCE2EDAE67500524161 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B5C0DD02EDAE67500524161 /* Build configuration list for PBXNativeTarget "HeartBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B5C0DD12EDAE67500524161 /* Debug */,
+				4B5C0DD22EDAE67500524161 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BE50B0B2EDFB028006ABCB3 /* Build configuration list for PBXNativeTarget "HeartBridgePad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BE50B0C2EDFB028006ABCB3 /* Debug */,
+				4BE50B0D2EDFB028006ABCB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BE50B432EDFCD6B006ABCB3 /* Build configuration list for PBXNativeTarget "HeartBridgePhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BE50B442EDFCD6B006ABCB3 /* Debug */,
+				4BE50B452EDFCD6B006ABCB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B5C0DB32EDAE67300524161 /* Project object */;
+}

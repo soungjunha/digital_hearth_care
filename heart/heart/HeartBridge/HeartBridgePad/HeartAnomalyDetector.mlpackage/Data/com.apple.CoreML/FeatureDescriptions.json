@@ -1,0 +1,21 @@
+{
+  "Inputs" : {
+    "input_signal" : {
+      "MLFeatureShortDescription" : "--"
+    }
+  },
+  "Outputs" : {
+    "reconstructed" : {
+      "MLFeatureShortDescription" : "--"
+    },
+    "latent" : {
+      "MLFeatureShortDescription" : "--"
+    }
+  },
+  "TrainingInputs" : {
+
+  },
+  "States" : {
+
+  }
+}
