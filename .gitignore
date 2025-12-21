@@ -1,0 +1,12 @@
+﻿*.csv
+*.png
+*.jpg
+*.h5
+*.hdf5
+*.pickle
+*.pkl
+data/
+datasets/
+model/dataset/nomal_data/
+model/dataset/test_data/
+model/dataset/data_set_csv/
